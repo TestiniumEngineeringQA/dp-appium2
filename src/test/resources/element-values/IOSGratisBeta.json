@@ -1,0 +1,2949 @@
+[
+  {
+    "key": "gratisHomePageRegister",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "üye olun / giriş yapın",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "gratisHomePageLogin",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"üye olun / giriş yapın\"]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisHomePageProfilTab",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTabBar/XCUIElementTypeButton[`name == 'mainTabProfileTabBtn' OR name == 'Profil' OR label == 'Profil'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisHomePageTab",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "mainTabHomeTabBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "gratisProfilTabLoginButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileHeaderLoginRegisterBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "gratisSuccesLoginText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Merhaba, ",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaPhoneNumberInput",
+    "androidValue": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.EditText",
+    "androidType": "xpath",
+    "iosValue": "XCUIElementTypeTextField",
+    "iosType": "class"
+  },
+  {
+    "key": "betaVariantPhoneNumberInput",
+    "androidValue": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.EditText",
+    "androidType": "xpath",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"continueBtn\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaSmsCodeInput",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeTextField[@name='otpInput']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaVariantSmsCodeInput",
+    "androidValue": "android.widget.EditText",
+    "androidType": "class",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"otpInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaSmsCodeInputWarning",
+    "androidValue": "android.widget.EditText",
+    "androidType": "class",
+    "iosValue": "Girdiğiniz kod hatalıdır, lütfen yeniden deneyiniz.",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaSmsCodeInfoText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeStaticText)[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSmsCodeTimeoutControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeStaticText)[10]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSmsCodeInputWarningClose",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "outlined/cancel",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaSmsCodeTimeoutWarning",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "3 dakika içerisinde daha fazla sms doğrulayamazsınız, lütfen daha sonra tekrar deneyiniz.",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaGirisYapBtnOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`name == \"continueBtn\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfilUyeOlBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileHeaderLoginRegisterBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaRegisterName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeTextField[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaRegisterSurname",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeTextField[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaRegisterEmail",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeTextField[3]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaRegisterEmailAgain",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"signUpMailAgainInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaRegisterBirthDate",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"signUpBirthDateInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaMemberInfoBirthDate",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"memberInfoBirthdayInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaRegisterPassword",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeSecureTextField[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaRegisterPasswordAgain",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeSecureTextField[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaRegisterGenderCheck",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"outlined/radio_button_unchecked\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaRegisterClarificationTextCheckbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeSwitch[@name=\"signUpMemberBox\"]/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSignUpAssignVirtualCardBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeSwitch[@name=\"signUpAssignVirtualCardBox\"]/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSignUpMemberBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeSwitch[@name=\"signUpMemberBox\"]/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSignUpSmsBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeSwitch[@name=\"signUpSmsBox\"]/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSignUpEmailBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeSwitch[@name=\"signUpEmailBox\"]/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSignUpCallBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeSwitch[@name=\"signUpCallBox\"]/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaRegisterGratisKartSahibiOlmaText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Gratis Kart sahibi olmak istiyorum.",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaRegisterGratisKartCheckbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeSwitch[@name=\"signUpAssignVirtualCardBox\"]/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaRegisterRegisterBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`name == \"signUpCreateMembershipBtn\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaRegisterRegisterPopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Üyeliğiniz başarıyla oluşturuldu.",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaRegisterGoToShopping",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "ALIŞVERİŞE BAŞLA",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaRegisterEmailWarningPopup",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Email adresi zaten var.",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaRegisterNameWarning",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeStaticText)[4]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaRegisterSurnameWarning",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeStaticText)[5]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaRegisterEpostaWarning",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeStaticText)[7]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaRegisterBirthDateWarning",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeStaticText)[10]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaRegisterPasswordWarning",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeStaticText)[22]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaRegisterPasswordAgainWarning",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeStaticText)[24]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaRemoveKeyboard",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Sil",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaSendAgainSmsCode",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "otpResendBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaSendAgainSmsCodeWarning",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Kod yeniden gönderildi.",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaMyAccountAndMySettingsButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileMyAccountsAndMySettings",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaMyRegisterInfoButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Üyelik Bilgilerim\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeleteAccountButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "memberInfoDeleteBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaDeleteAccountDeleteButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"SİL\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaGenderMaleChecked",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"outlined/radio_button_checked\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaGenderMale",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "memberInfoGenderMALEBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaGenderFemale",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "memberInfoGenderFEMALEBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaAccountInfoUpdate",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "memberInfoUpdateBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaMyPasswordTransactionsButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Şifre İşlemleri\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaRegisterNewPasswordAgain",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeSecureTextField[3]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaSavePasswordButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "changePasswordBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaSavePasswordWarning",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis Beta\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaActiveSlider",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeScrollView[@name=\"homeBanner\"])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCategoryHeader",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"productListSortBtn\"]/preceding-sibling::XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCategoryHeaderNotFound",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeImage[@name=\"placeholder/search\"]/preceding-sibling::XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSearchPlaceHolder",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == \"background/search_field\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBarkodIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"filled/barcode_scanner\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBarkodPageHeader",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name=\"_TtGC7SwiftUI32NavigationStackHosting\"]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther[@name=\"searchInput_\"]/preceding-sibling::XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductCategoryFirstCategory",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ürün Kategorileri\"]/following-sibling::XCUIElementTypeScrollView[1]//XCUIElementTypeButton[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductCategorySecondCategory",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Ürün Kategorileri\"]/following-sibling::XCUIElementTypeScrollView[1]//XCUIElementTypeButton[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductBackCaseBadge",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "btc_badge",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductBackCaseFirstProductFavButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeScrollView[@name=\"cartBTCProductsSheet\"])[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductBackCaseFirstProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[3]/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductBanner",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[4]/XCUIElementTypeOther",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductBannerGoToShopping",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Alışverişe Başla\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaCompleteShopping",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "cartCompleteShoppingBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaCampaignOneTap",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "homeCampaignFilterBtn_All",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaCampaignTwoTap",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "homeCampaignFilterBtn_Anne & Bebek",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaCampaignThirdTap",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[8]/XCUIElementTypeOther/XCUIElementTypeStaticText[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaJustGratisMarka",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Sadece Gratis'te\"]/following-sibling::XCUIElementTypeScrollView[1]//XCUIElementTypeButton[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaJustGratisMarkaControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"productListSortBtn\"]/preceding-sibling::XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaGratisBeautyRandevuAl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "gratisBeautyRandevuAlBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaGratisBeautySlider",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"Alternate Text\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaSearch",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"searchInput_\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaSearchOnerilenArama",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSearchOnerilenAramaContains",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSearchOnerilenKategori",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[6]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSearchOnerilenKategoriContains",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[10]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSearchClose",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"outlined/cancel\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaSearchKeyboard",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Search",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductListFirsProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther[@name=\"productCard_Generic\"]/XCUIElementTypeStaticText[2])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductListFirsttProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther[@name=\"productCard_Generic\"]/XCUIElementTypeStaticText[3])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSearchProductListFirstProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther[@name='productCard_Generic'])[1]//XCUIElementTypeStaticText[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSortButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Sırala\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaSortOptionList",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFilterOptionList",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaSıralamaList",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name=\"Sıralama\"]/following-sibling::XCUIElementTypeOther//XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaMostSellRadioButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Çok Satanlar",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaNewestRadioButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"En Yeniler\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaApplyButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "sortSelectionApplyBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaFilterButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Filtrele (0)\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaMarkButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Marka\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaMarkFirstMarkButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaShowButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "filterSelectionShowBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaCategoryFilterName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCategoryButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Kategoriler\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaCategorySearchKeyboardButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Ara\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaCategoryList",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCategoryMarkTab",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "segmentedControlBtn_brands",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaCategoryMarkButtonList",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCategoryLastMark",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "brandsZiaja-brandsZiaja",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaCategoryListLetterA",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"A\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaCategoryListLetterZ",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"brandsLetterIndex_Z\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBrandShowLess",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Daha Az Göster\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaCategoryMenuList",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCategoryMenuDudakMakyajiSubTextButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCategoryMenuRujSubTextButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "subSubCategoriesRuj",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaCategoryShowMakeupPageMenuButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Makyaj Sayfasını Görüntüle\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaCategoryShowAllProductsButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCategorySubCategoriesControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCategoryFeaturedBrandsControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMembershipHowToMembershipText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "disclosureContentLink_Gratis.com'da sağ üst köşede bulunan \"Üye Olun, Yada Giriş Yapın\"a tıklayarak üyeliğinizi oluşturabilirsiniz. {\n}",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileEBulten",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "disclosureContentLink_E-mailinize gelen E-bültene tıklayarak sayfanın en altında bulunan \"E-bülten üyeliğinden ayrıl\" butonuna basarak iptal sağlayabilirsiniz. {\n}",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileMailBildirimIptali",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "disclosureContentLink_Profil kısmında bulunan, hesap ve ayarlarım alanından elektronik posta kutucuğundaki tiki kaldırarak iptal sağlayabilirsiniz. {\n}",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileCancelMembership",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "disclosureContentLink_Mobil uygulamamızda ve web sitemizde \"Profil-Hesabım ve Ayarlarım-Üyelik Bilgilerim- Üyelikten Ayrıl\" adımlarını uygulayarak veya müşteri hizmetlerimizi arayarak üyeliğinizi iptal edebilirsiniz. {\n}",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileOrderText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "disclosureContentLink_Siparişiniz kargoya teslim edildikten sonra, doğrulanmış e-posta adresinize ve kayıtlı cep telefonu numaranıza SMS ile bilgilendirme yapılacaktır. Kargonuzu takip etmek için gratis.com’a giriş yaptıktan sonra “Siparişlerim” menüsünden ilgili siparişin “Sipariş Detayı” sayfasına gidiniz. Bu sayfada yer alan “Kargom Nerede” butonuna tıklayarak kargo takip numaranıza ulaşabilir ve gönderinizi takip edebilirsiniz. {\n}",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileOrderCargo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "disclosureContentLink_Siparişinizin teslimi sırasında, kargo firması tarafından iletilen teslimat koduyla teslim alabilir veya zorunlu olmamak kaydıyla kimlik gösterilmesi talep edilebilir. Adresinizde sizin dışınızda bir kişinin bulunması halinde, siparişiniz aynı bilgilerle bu kişi tarafından da teslim alınabilir. {\n}",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileOrderTracking",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "disclosureContentLink_Siparişinizi “Hesabım” sayfasındaki “Siparişlerim” bölümünden görüntüleyebilir, sipariş statülerinden güncel durumunu takip edebilirsiniz.  Adrese Teslim Siparişler:  Siparişiniz oluşturulduğunda “Sipariş Alındı” statüsüne geçer. Bu aşamada siparişinizi site üzerinden iptal edebilirsiniz. Siparişinizin hazırlanma süreci başladığında statü “Sipariş Hazırlanıyor” olarak güncellenir; bu aşamada ürünleriniz toplanır, paketlenir ve faturalandırılır. Siparişiniz kargo firmasına teslim edildiğinde statü “Kargoya Verildi” olur. Bu aşamada, sipariş detayında yer alan kargo takip linki üzerinden gönderinizi takip edebilirsiniz. Siparişiniz teslim edildiğinde statü “Sipariş Teslim Edildi” olarak güncellenir.  Mağazadan Teslim Siparişler:  Siparişiniz oluşturulduğunda “Sipariş Alındı” statüsüne geçer. Bu aşamada siparişinizi site üzerinden iptal edebilirsiniz. Hazırlık süreci başladığında statü “Sipariş Hazırlanıyor” olur; bu aşamada ürünleriniz toplanır, paketlenir, faturalandırılır ve mağazaya sevk edilir. Siparişiniz mağazaya ulaştığında statü “Sipariş Mağazada” olarak güncellenir. Bu aşamada siparişinizi, mağazanın çalışma saatleri içinde teslim alabilirsiniz. Siparişinizi, tarafınıza iletilen SMS’te yer alan teslimat kodu ile teslim alabilirsiniz. Teslim almadan önce ürünlerinizi kontrol etmeniz önerilir. Siparişinizi teslim aldıktan sonra statü “Sipariş Teslim Edildi” olarak güncellenir. {\n}",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileOrderHowTracking",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"disclosureContentBtn_Siparişimin ‘’Teslimat Tarihini’’ Nasıl Öğrenebilirim?\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfileOrderHowTrackingText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "disclosureContentLink_gratis.com'dan yapacağınız alışverişleriniz siparişiniz onaylandıktan sonra adresinize teslim edilmek üzere kargo firmasına teslim edilir. Kampanya dönemlerinde bu süre yoğunluğa göre değişiklik gösterebilmektedir.  Siparişinizin teslimat tarihini görmek için gratis.com üyeliğinize giriş yapınız. “Hesabım-Siparişlerim” bölümünden detaylara ulaşabilirsiniz. Adrese teslim siparişleriniz için kargo takip numarasıyla kargonuzu takip edebilir, Gel-Al (Mağazaya Teslim) siparişleriniz için kayıtlı telefonunuza gelecek sms bilgilendirmesiyle öğrenebilirsiniz. {\n}",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileAdressChangingText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "disclosureContentLink_Siparişinizin teslimat adresinde değişiklik yapabilmek için \"Siparişiniz kargoya teslim edilmiştir\" bilgilendirmesinden sonra,  Müşteri Hizmetleri tarafından değiştirilebilir. Mağaza teslim siparişlerinde  adres değişiklik yapılamamaktadır. {\n}",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileReturnText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "disclosureContent\"Siparişlerim\"de yer alan ilgili sipariş detayında, iadesini talep ettiğiniz ürünlerinizin iade durumlarına ait detay bilgilerine ulaşabilirsiniz. {\n}Link",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileHowToReturnText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "disclosureContent\"Diğer-Profilim-Siparişlerim-Sipariş Detayına Git\" adımlarını izleyerek sipariş içerisinde \"İADE ET\" ile seçmiş olduğunuz ürünlerde iade nedeninizi belirterek iade talebinizi başlatabilirsiniz. Ekranda çıkan iade onay kodu ile ilgili kargo firmasına ürünlerinizi teslim edebilirsiniz. Gratis mağazalarımızdan ise Sipariş Numaranızı belirterek iade işlemini başlatabilirsiniz. Gratis kartınız ile satın almış olduğunuz ürünlerde iade sürecimiz 30 gündür. Gratis kartınız olmadan satın aldığınız ve iade edeceğiniz ürünlerinizin kutusu/ambalajı açılmamış, hijyen özellikleri bozulmamış, yeniden satılabilir özelliğini kaybetmemiş olmalıdır. Elektronik ve büyük hacimli ürünlerin iadesi; sadece hasar raporu veya tedarikçi markanın raporu ile beraber Gratis depomuzdan yapılabilmektedir. Mağazalarımızdan bu tip ürünlerin iadesi kabul edilememektedir. {\n}Link",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileCommunicationAddressAndHeadquarters",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileCommunicationAddressAndHeadquartersOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileCommunicationMapLink",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Adres:\"]/following-sibling::XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileCommunicationPhoneNumber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Bizi Arayın:\"]/../XCUIElementTypeLink/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileCommunicationTaxOfficeNumber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[7]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileCommunicationRegistrationNo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[9]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileCommunicationKepAdress",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Kep Adresi:\"]/../XCUIElementTypeLink[2]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMembershipAgreement",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileCommunicationMersisNo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Mersis Numarası:\"]/following-sibling::XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilePrivacyAndSecurityText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileSocialMediaXButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileSocialX",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileSocialMediaXGizleButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Gizle",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileSocialMediaInstagramButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileSocialInstagram",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileSocialMediaFacebookButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileSocialFacebook",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileSocialMediaTiktokButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileSocialTikTok",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileSocialMediaUrlControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "TabBarItemTitle",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileSocialMediaWhatsappButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileSocialWhatsapp",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileSocialMediaYoutubeButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileSocialYoutube",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileSocialMediaYoutubeText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Gratis'le Güzel Bak Kendine!",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileAppVersionControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMyGratisCardBottomSheetCloseButton ",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"outlined/cancel\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfileGotoMaps",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMaps",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Yol Tarifi",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaPageGrabber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Sayfa Yakalayıcı",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaCityAndDistrictShowShops",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeButton[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCityFilterCancel",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"outlined/cancel\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDistrictFilterCancel",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"outlined/cancel\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaNearbyShopsMapIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"outlined/map\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaNearbyShopsMapZoomIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"mapStoresZoomInBtn\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaNearbyShopsMapZoomOutIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "mapStoresZoomOutBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaNearbyShopsMapThreePointIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"outlined/format_list_bulleted\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfileMyOrdersFirstOrder",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeImage[@name=\"ordersCard\"])[1]/parent::XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMyFavoritesHome",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"outlined/chevron_forward\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfileMyFavoritesProduct",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileNotificationSettings",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Ayarlar\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileLoginUsername",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton/XCUIElementTypeStaticText[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfileLoginPopupUsername",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfileLoginPopupEmail",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeWindow/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfileOrderDateText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileOrderAdressText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileOrderProductText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton/XCUIElementTypeStaticText[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileOrderTotalPriceText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton/XCUIElementTypeStaticText[4]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileOrderStatusText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton/XCUIElementTypeStaticText[5]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileOrderOkButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"outlined/chevron_forward\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfileOrderTwoOkButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"outlined/chevron_forward\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfileOrderDetailDate",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[5]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileOrderDetailOrderNumber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaMainPageJustGratisShowAll",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Tümünü Gör\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaMainPageJustGratisShowAllMark",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "background/brands",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfilOrderDetailPageProduct",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailPageOrderSummaryOrderNumber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[5]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailPageOrderSummaryOrderDate",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[7]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailPageOrderSummaryPromotion",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[9]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailPageOrderSummaryGratisCardDiscount",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[11]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailPageOrderCargo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailPageOrderGratisCard",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[15]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailPageOrderKHKT",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[17]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailPageOrderKGPT",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[19]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailProductImage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton/XCUIElementTypeImage)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailProductCode",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton/XCUIElementTypeStaticText)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailProductTotalPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton/XCUIElementTypeStaticText)[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailProductAmount",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton/XCUIElementTypeStaticText)[4]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailCargoStatusIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "outlined/quick_reorder",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfilOrderDetailCargoTrackingNumberText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailCargoTrackingNumber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderDetailCargo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderReturnOrderNo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name=\"_TtGC7SwiftUI32NavigationStackHosting\"]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderReturnText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Lütfen iade etmek istediğiniz ürünleri seçiniz.",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfilOrderReturnAllButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Tüm ürünleri iade etmek istiyorum",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfilOrderReturnProductCheckbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeSwitch[`label == \"outlined/check_box_blank\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfilOrderReturnReasonText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Lütfen ürün iade sebebini ve iade edilecek ürün adedini seçiniz",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfilOrderReturnReasonChooseButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"outlined/chevron_forward\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfilOrderReturnReasonChooseButtonTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"outlined/chevron_forward\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfilOrderReturnReasonChooseButtonTrue",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='SEÇİLİ ÜRÜNLERİ İADE ET' and @enabled=\"true\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilOrderReturnReasonChooseButtonFalse",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name='SEÇİLİ ÜRÜNLERİ İADE ET' and @enabled=\"false\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilMyOrdersButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileHeaderOrdersBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfilOrderDeliveredStatus",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Siparişiniz Kargoya Verildi\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaOrderDetailBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Siparişlerim\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProfilMyOrdersDeliveredTopTap",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "ordersCategory_delivered",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfilMyGratisCardButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileMyOrdersBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfilMyGratisCardNumber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilMyGratisCardCustomerName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfilMyGratisCardCodeField",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"otpSheet_verifyCardOTP\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBottomSheet",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView[@name=\"addedToCartSheet\"]/XCUIElementTypeOther[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBottomSheetProductText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView[@name=\"addedToCartSheet\"]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "mainTabCartTabBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaBasketDetailProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketDetailProductPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketDetailProductAmount",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaLocationPermission",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Uygulamayı Kullanırken İzin Ver",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaNotificationPermission",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "İzin Ver",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaBarkodNotificationPermission",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Tamam\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketProductPriceTotal",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketProductIncreaseButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"outlined/add\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketProductDecreaseDeleteButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"outlined/delete\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketProductTrashButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "cartItemDecreaseCountBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaBasketProductSilButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@label='Sil']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketProductSilAndAddFavButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@label='Sil ve Favorilere Ekle']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketProductAmountOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"1\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketProductDecreaseButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"outlined/remove\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketKasaArkasiButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "cartInnerSheetCloseBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaBasketProductTotalPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketDeliveryTypeStoreRadioButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"outlined/radio_button_checked\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreCityTextControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[6]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaDeliveryStoreDistrictTextControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[8]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaDeliveryStoreControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[10]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaDeliveryStoreRecipientControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"deliveryStoreSelectionShowRecipientForm\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaDeliveryStoreRecipientEditButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == \"deliveryStoreSelectionShowRecipientForm\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreRecipientNameInput",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"recipientNameInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreRecipientSurnameInput",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"recipientSurnameInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreRecipientPhoneNumberInput",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"recipientPhoneNumberInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreRecipientSaveAndContinueButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "recipientSaveAndContinueBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaDeliveryStoreInvoiceAddressNameAndSurnameControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton[3]/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaDeliveryStoreInvoiceAddressControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton[3]/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaDeliveryStoreInvoiceAddressName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"myAddressesNameInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreInvoiceAddressSurname",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"myAddressesSurnameInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreInvoiceAddressPhoneNumber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"myAddressesPhoneNumberInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreInvoiceAddressAddressName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"myAddressesAddressNameInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreInvoiceAddressCityDropdown",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeStaticText[@name=\"myAddressesCitySelectionBtn\"])[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaDeliveryStoreInvoiceAddressOpenAddress",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextView[`name == \"myAddressesOpenAddressNameInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreInvoiceAddressPostalCode",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"myAddressesPostalCodeInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreInvoiceAddressNoAddressMessage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Kayıtlı adresiniz bulunmamaktadır.\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryStoreInvoiceAddressAddAddressButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"ADRES EKLEYİN\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaInvoiceAdressDetail",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeButton[starts-with(@name,'cartDeliveryAddress_')])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaStoreNumber",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText)[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileHelpAndSupportBank",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Banka(debit) kart ile alışverişlerde iade süreci nasıl gerçekleşmektedir?\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaKasaArkasiProductOneFavBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeScrollView[@name=\"cartBTCProducts\"])[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaKasaArkasiProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "((//XCUIElementTypeScrollView[@name=\"cartBTCProductsSheet\"])[2]/XCUIElementTypeOther//XCUIElementTypeStaticText[starts-with(@name, 'btcProducts_')])[2]\n",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBackCaseSecondProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"cartItemDecreaseCountBtn\"])[2]/preceding-sibling::XCUIElementTypeButton[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaMarkName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[contains(@name,\"productDetailTitleBtn_Benri\")]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaKasaArkasiProductOneFavAddBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"EKLE\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaKasaArkasiAddToBasketBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeScrollView[@name=\"cartBTCProductsSheet\"])[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketProductItemSelectBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "cartItemSelectBox",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaBasketDeleteAllProduct",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeOther[`label == \"TÜMÜNÜ SİL\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketDeleteAllProductPopUp",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Tümünü Sil\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBackCaseAllButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "carBTCProductsFilterTümüBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaBasketProductAmountHeader",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name=\"_TtGC7SwiftUI32NavigationStackHosting\"]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketProductPriceGratisCard",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketProductCheckedSelectBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeSwitch[`label == \"filled/check_box\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketProductUncheckedSelectBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeSwitch[`label == \"outlined/check_box_blank\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketGiftCardTextField",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"cartGiftCardEntrySheet\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketGiftCardSuccessTikControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"outlined/task_alt\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketGiftCardSuccessPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"cartFooterSheetToggleBtn\"]/preceding-sibling::XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketStaffDiscountPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"cartFooterSheetToggleBtn\"]/preceding-sibling::XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketTotalPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"cartFooterSheetToggleBtn\"]/preceding-sibling::XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketTotalPriceUpdated",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"cartFooterSheetToggleBtn\"]/preceding-sibling::XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketTotalPriceUpdatedOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"cartFooterSheetToggleBtn\"]/preceding-sibling::XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketPromotionCode",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"cartPromotionCodeEntrySheet\"`][3]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketGiftCardCancelButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"filled/cancel\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketGiftCardSuccessText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeButton[6]/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketGratisPointText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"cartGratisPointsEntrySheet\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaBasketPromoCodeTextField",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"cartPromotionCodeEntrySheet\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryInvoiceForwardNavigationButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Adres baslik\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryNewAddressAddButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "myAddressesAddNewBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaBasketFooterPriceToggleButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "cartFooterSheetToggleBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaBasketFooterPriceToggleProductText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketFooterPriceToggleProductPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketFooterPriceToggleBasketPriceText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[3]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketFooterPriceToggleBasketPrice",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[4]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaDeliveryPreliminaryInfoAggreementCheckBox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "outlined/check_box_blank",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaDeliveryPreliminaryInfoAggreement",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "orderDeliveryPreliminaryInfoAgreement",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaDeliveryDistanceSalesAgreement",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Mesafeli Satış\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaDeliveryCargoRadioButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "cartDeliveryShipmentSelectionBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaListingFirstProductFavButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"outlined/favorite\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaListingMoreProductShowButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "productListLoadMoreBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaListingFirstProductAddToBasketButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"outlined/add\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_iade_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"İade, Ürün ve Şikayet\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_gizlilik_guvenlik_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Gizlilik ve Güvenlik\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_siparislerim_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Siparişlerim\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_kullanim_kosullari_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Kullanım Koşulları\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_uyelik_bilgilerim_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Üyelik Bilgilerim\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_gratis_kartim_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Gratis Kartım\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_adreslerim_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Adreslerim\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_favoriler_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Favoriler\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_siparis_teslimat_sureci_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Sipariş ve Teslimat Süreci\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_odeme_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Ödeme\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_uyelik_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Üyelik\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_yardim_destek_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Yardım ve Destek\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_magazalarimiz_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Mağazalarımız\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_kampanyalar_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Kampanyalar\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_sepetiniz_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeStaticText[@name=\"Sepetiniz\"])[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "urun_markalar_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`name == \"segmentedControlBtn_brands\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_iletisim_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"İletişim\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "urun_login_sayfasi",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"Giriş Yap / Üye Ol\"`][2]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "sepeteEkleMesaj",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@label = 'Ürün sepetinize başarıyla eklendi.']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaListingFirstProductVariantButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaListingFirstProductVariantHeaderText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis Beta\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaListingFirstProductVariantOption",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView[@name=\"variantSelectionSheet\"]/XCUIElementTypeOther/XCUIElementTypeButton[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaListingFirstProductSecondVariantOption",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView[@name=\"variantSelectionSheet\"]/XCUIElementTypeOther/XCUIElementTypeButton[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFilterStockCheckbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "filterSelectionInStockBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaFilterSelectedMark",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[7]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFilterPriceRange",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"filterSelectionPriceSelection\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFilterPriceRangeSlider",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "priceSelectionSlider",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaFilterPriceRangeSliderRight",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeOther[`name == \"RightKnob\"`]/XCUIElementTypeOther",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaFilterPriceRangeSliderLeft",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeOther[`name == \"LeftKnob\"`]/XCUIElementTypeOther",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaFilterPriceRangeSliderMin",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther[@name=\"priceSelectionSlider\"]/preceding-sibling::XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFilterPriceRangeSliderMax",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther[@name=\"priceSelectionSlider\"]/preceding-sibling::XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFilterPriceRangeMinPriceInput",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"En Az\"]/following-sibling::XCUIElementTypeTextField[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFilterPriceRangeMaxPriceInput",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"En Çok\"]/following-sibling::XCUIElementTypeTextField[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFilterPriceRangeSliderMin",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis Beta\"]/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFilterPriceRangeSliderMax",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis Beta\"]/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFilterApplyButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "multiSelectFilterApplyBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaFilterPriceApplyButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "priceSelectionApplyBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaFilterPriceApplyControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "productListFilterPriceChipBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaFilterPriceRangeSelectionResetButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "priceSelectionResetBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailFirstProduct",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailFirstProductBuyAgain",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailFirstProductButtonBuyAgain",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"ÜRÜN DETAYI\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProductDetailAddToBasketButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "productDetailAddToCartBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailShareIcon",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "productImageShareIconBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailBasketButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "outlined/shopping_basket",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaBasketProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"cartItemIncreaseCountBtn\"]/preceding-sibling::XCUIElementTypeButton[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailVideoTab",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "productInfoListItem_Video-productInfoListItem_Video",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailVideo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeWebView[1]/XCUIElementTypeWebView/XCUIElementTypeWebView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeButton)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailVideoPlay",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Videoyu oynat\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProductDetailZoomInButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "productImageZoomInBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailZoomControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeScrollView/XCUIElementTypeOther)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailZoomCloseButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"dismissSheetBtn\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailShareControl",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeNavigationBar[@name=\"UIActivityContentView\"]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeStaticText)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailShareCloseButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Kapat",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailAddFavoriteButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"productCardFavoriteBtn\"])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailFavoriteBottomSheet",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis Beta\"]/XCUIElementTypeWindow/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther",
+    "iosType": "xpath"
+  },
+  {
+    "key": "AddToListFavoriteButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"productCardFavoriteSheet\" and @label=\"EKLE\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMyFavoriteButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileHeaderFavoritesBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailFavoriteNewListCloseButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"dismissSheetBtn\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailFavoriteNewListTextField",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`name == \"createEditWishlistListNameInput\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProductDetailFavoriteNewListName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"wishlistsFavorilerimRow\" and @label=\"Favorilerim\"]/following-sibling::XCUIElementTypeStaticText[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailMarkFirstProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailAllCommentFiveStars",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`label == \"filled/grade\"`][5]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaProductDetailAllCommentsButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "commentSummaryShowReviewsBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailAdditionalFeaturesExpandButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "productFeaturesExpandBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailFeaturesParabensizButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Parabensiz",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailFeaturesAlkolsüzButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Alkolsüz",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailFeaturesSülfatsızButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Sülfatsız",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailFeaturesNoSLESButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "SLESİçermez",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailFeaturesParabensizHeaderText",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "\"Parabensiz\"",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductDetailProductSpecifications",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"productInfoListItemÜrün Özellikleri\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCategoryShowAllProducts",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "subSubCategoriesTümÜrünleriGörüntüleBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileFavoriteEditButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"wishlistEditBtn\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileFavoriteDeleteButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther[@name=\"wishlistDeleteBtn\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMyAddressesTrashButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "myAddressesTrashBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileMyPointsCampaign",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[4]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMyPointsExpiredPoints",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[8]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMyPointsEarnedPoints",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[11]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMyPointsEarnedCampaignPoints",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[14]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMyPointsFilterDropdown",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "gratisPointsFilterSelectionBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileMyPointsFilterDropdownCloseButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "gratisPointFilterSheetCloseBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProfileMyPointsFilterOptions",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis Beta\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileMyPointsFilterOptionsAllProcessRadioButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"radioButtonlastOneMonthBtn\"])[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProfileBuyAgainFirstProduct",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther[@name=\"productCard_Generic\"])[1]/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailRating",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[6]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailReviewedAndCommentRating",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeImage[@name=\"editableRating_5.0\"])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailReviewedAndCommentProductName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductDetailProductCommentThirdProductCustomerName",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeStaticText[9]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductCommentSortFromOldToNewOption",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "reviewSortSelectionBox_Eskiden Yeniye",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaProductCommentSortFromOldToNewProductCommentSorted",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeStaticText[@name=\"Eskiden Yeniye\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductCommentFilterOptionSwitch",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeSwitch[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductCommentFilterRating",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeStaticText[@name=\"5\"])[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductCommentFilterRatingSelect",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeImage[@name=\"editableRating_5.0\"])[5]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductCommentInput",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeStaticText[@name=\"createReviewCommentInput\"])[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaProductCommentHideNameCheckbox",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"outlined/check_box_blank\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaUserLogoutButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeImage[@name=\"Çıkış\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaLogoutButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"profileLogOutBtn\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaMapsBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeButton[@name=\"Profil\"]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFavoriteBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`name == \"Favoriler\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaAccountAndSettingsBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Hesabım & Ayarlarım\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaCategoryBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Kategoriler\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaMainPageBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Anasayfa\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaMainPageBackButton1",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar//XCUIElementTypeButton[not(@name='cartToolBarBtn')][1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaDeliveryBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Teslimat\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaHelpAndSupportBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Yardım ve Destek\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaMakeupBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "\"Makyaj\"",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaCommentBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Ürün Yorumları",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "betaCommentDetailBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name=\"Ürün Yorumları\"]/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCommentDetailDegerlendirBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name=\"Değerlendir, Yorum Yap\"]/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaCommentDetailSıralamaBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name=\"Sıralama\"]/XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFilterBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Filtrele\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaOrderBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Siparişlerim\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "betaFavoriteProductNumberBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeTextField[@name=\"searchInput_\"]/../../preceding-sibling::XCUIElementTypeButton",
+    "iosType": "xpath"
+  },
+  {
+    "key": "betaFavoriteSecondProductNumberBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeNavigationBar[`name == \"Flormar Silk Matte Liquid Lipstick Likit Ruj 005 Autumn Timber\"`]/XCUIElementTypeButton",
+    "iosType": "classChain"
+  },
+  {
+    "key": "favoriteTab",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "mainTabFavoriteBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "priceSelectionSliderBar",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Bar",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "priceSelectionLeftKnob",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "LeftKnob",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "priceSelectionRightKnob",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "RightKnob",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "spesificProductAddToCartBtn",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "productCardAddToCartBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "favoriteRemovedToastMessage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther//XCUIElementTypeStaticText[contains(@label,'Ürün favori listenizden kaldırıldı') or contains(@value,'Ürün favori listenizden kaldırıldı')]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "MyAddress",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "profileHeaderAdressesBtn",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "myAddressTrashButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeButton[@name=\"myAddressesTrashBtn\"])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "homeCategory_Makyaj",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`name == \"homeCategory_Makyaj\"`]",
+    "iosType": "classChain"
+  }
+]
