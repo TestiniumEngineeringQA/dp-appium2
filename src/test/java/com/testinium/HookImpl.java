@@ -529,7 +529,7 @@ public class HookImpl {
 
                 hubUrl.set(
                         new URL(
-                                "http://192.168.1.89:4723/"
+                                "http://hub-devcluster.testinium.io:4444/wd/hub"
                         )
                 );
 
